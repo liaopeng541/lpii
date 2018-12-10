@@ -1,7 +1,6 @@
 <?php
 
 namespace lpsoft\lpii;
-
 /**
  * v1 模块
  */
