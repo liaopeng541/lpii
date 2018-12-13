@@ -11,7 +11,7 @@ namespace lpsoft\lpii\controllers;
 
 use lpsoft\lpii\libs\common;
 
-class ProjectController extends BuildController
+class ModelController extends BuildController
 {
     /**
      * 读取数据库连接配置
@@ -24,31 +24,5 @@ class ProjectController extends BuildController
      */
     public function actionSetDb(){
         
-    }
-    
-    /**
-     * 获取所有项目列表
-     */
-    public function actionList(){
-        
-    }
-    
-    /**
-     * 添加项目
-     */
-    public function actionAdd(){
-        
-    }
-    
-    /**
-     * 删除项目
-     */
-    public function actionDelete(){
-        
-    }
-
-   
-    
-    
-
+    } 
 }

@@ -7,7 +7,7 @@ namespace lpsoft\lpii;
 class lpii extends \yii\base\Module
 {
     public $controllerNamespace = 'lpsoft\lpii\controllers';
-
+    public $defaultRoute="app/index";
     public function init()
     {
         parent::init();
